@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import Box from '../Box';
+import styled from "styled-components";
+import Box from "../Box";
 
 export const ProfileRelationsBoxWrapper = styled(Box)`
   ul {
@@ -8,6 +8,9 @@ export const ProfileRelationsBoxWrapper = styled(Box)`
     grid-template-columns: 1fr 1fr 1fr; 
     max-height: 220px;
     list-style: none;
+    overflow: hidden;
+    overflow-y: scroll;
+}
   }
   img {
     object-fit: cover;
